@@ -42,10 +42,13 @@ Edit this document to include your answers after each question. Make sure to lea
 # The differences is that display: block; means that each elements is displayed as a block elements. For instance paragraphs and headers. These elements have some white spaces above and below. display: inline; Displays an element as an inline element (like <span>). Any height and width properties will have no effect
 
 3. What are the 4 areas of the box model?
+   
 
 # The four areas of the box model are padding, border, margin, and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+# align-items: center works on Cross-Axiz or vertical axis.
 
 5. Explain why git is valuable to a team of developers.
 
