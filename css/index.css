@@ -283,12 +283,7 @@ nav a {
 .about {
     margin: 1%;
     border-bottom: 1px dashed black;
-    /* display: inline-block;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start; */
+  
   }
   
   .part1 {
