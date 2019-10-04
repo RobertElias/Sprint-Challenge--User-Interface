@@ -144,3 +144,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+nav a {
+   /* display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center; */
+   color: black;
+   font-size: 15px;
+   text-decoration: none;
+   /* padding: 8px; */
+}
