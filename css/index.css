@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -250,7 +251,8 @@ footer nav a {
     text-decoration: none;
 }
 nav {
-    width: 90%;
+    /* border: 2px solid red; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -263,3 +265,84 @@ nav a {
    text-decoration: none;
   
 }
+
+.container {
+    /* border: 2px solid blue; */
+    width: 800px;
+    margin: 20 auto;
+    align-content: center;
+    left: -20;
+  }
+.container .about-page{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.about {
+    margin: 1%;
+    border-bottom: 1px dashed black;
+    /* display: inline-block;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start; */
+  }
+  
+  .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 220px;
+    margin: 1%;
+    width: 47.8%;
+    font-size: 1em;
+    border-bottom: 1px dashed black;
+    padding: 10px;
+  }
+
+  .part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 220px;
+    margin: 1%;
+    width: 47%;
+    font-size: 1em;
+    border-bottom: 1px dashed black;
+    padding: 10px;
+   }
+   
+   .part3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+     min-height: 220px;
+     margin: 1%;
+     width: 46.8%;
+     font-size: 1em;
+     border-bottom: 1px dashed black;
+     padding: 10px;
+   }
+   
+   .part4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+     min-height: 220px;
+     margin: 1%;
+     width: 46.8%;
+     font-size: 1em;
+     border-bottom: 1px dashed black;
+     padding: 10px;
+   }
+
+  *{
+    line-height: 15px;
+  }
